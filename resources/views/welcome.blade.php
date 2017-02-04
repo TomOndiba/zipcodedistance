@@ -46,7 +46,8 @@
                         <div class="col-md-16">
                             <a href="{{ url('cargarcsv') }}" class="btn btn-success"> Add CSV </a>
                             <a href="{{ url('cargaragents') }}" class="btn btn-primary"> Add agents </a>
-                            <a href="{{ url('match') }}" class="btn btn-warning"> MATCH </a>
+                            <a href="{{ url('match') }}" class="btn btn-warning"> MATCH IN BICI</a>
+                             <a href="{{ url('matchDistance') }}" class="btn btn-warning"> MATCH DISTANCE</a>
                             <a href="{{ url('showcontacts') }}" class="btn btn-info"> Show Contacts </a>
                         </div>
                     </div>

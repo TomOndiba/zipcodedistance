@@ -16,6 +16,8 @@ class CreateContactsTable extends Migration
             $table->increments('id');
             $table->mediumText('name');
             $table->mediumText('zipCode');
+            $table->mediumText('latitud');
+            $table->mediumText('longitud');
             $table->timestamps();
         });
     }

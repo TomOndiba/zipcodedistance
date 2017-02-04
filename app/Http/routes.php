@@ -29,6 +29,8 @@ Route::get('/cargaragents','ContactsController@createagent' );
 
 Route::get('/match', 'ContactsController@match');
 
-Route::post('/addAgents','ContactsController@addAgents');
+Route::get('/matchDistance', 'ContactsController@matchDistance');
+
+Route::post('/addAgents','ContactsController@addAgents'); 
 
 

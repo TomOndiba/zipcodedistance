@@ -13,5 +13,5 @@
     </form>
 
     </form>
-    <a href="{{ url('/') }}" class="btn btn-danger">Cancel</a>
+
      @endsection
